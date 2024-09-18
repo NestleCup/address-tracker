@@ -7,7 +7,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./images/favicon.png"
     />
     <link rel="stylesheet" href="./src/style.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;600;1&display=swap"
       rel="stylesheet"
     />
+
     <title>IP Address Tracker</title>
   </head>
   <body>
@@ -36,23 +37,23 @@
       <div class="info">
         <div class="info__block">
           <div class="info__block-subtitle">ip address</div>
-          <div class="info__block-title" id="ip">192.212.174.101</div>
+          <div class="info__block-title" id="ip"></div>
         </div>
         <div class="info__block">
           <div class="info__block-subtitle">Location</div>
-          <div class="info__block-title" id="location">brooklyn, NY 10001</div>
+          <div class="info__block-title" id="location"></div>
         </div>
         <div class="info__block">
           <div class="info__block-subtitle">Timezone</div>
-          <div class="info__block-title" id="timezone">UTC-05:00</div>
+          <div class="info__block-title" id="timezone"></div>
         </div>
         <div class="info__block">
           <div class="info__block-subtitle">Isp</div>
-          <div class="info__block-title" id="isp">SpaceX StartLink</div>
+          <div class="info__block-title" id="isp"></div>
         </div>
       </div>
     </div>
-
-    <script src="./src/index.js"></script>
+    <div id="map" class="map"></div>
+    <script type="module" src="./src/index.js"></script>
   </body>
 </html>
